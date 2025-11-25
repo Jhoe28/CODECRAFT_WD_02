@@ -16,6 +16,9 @@
     --family-1: "Poppins", sans-serif;
     --family-2: "Roboto", sans-serif;
 }
+html{
+    scroll-behaviour: smooth;
+}
 body{
     font-family: var(--family-1);
     overflow-x: hidden;
@@ -622,3 +625,4 @@ footer .copyright{
         display: none;
     }
 }
+
